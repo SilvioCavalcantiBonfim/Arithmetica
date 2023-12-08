@@ -14,30 +14,37 @@ public enum Operators {
 
   /**
    * Operador de soma.
-   * Este operador realiza a operação de soma em sequência nos números fornecidos pelo método {@code apply}. 
+   * Este operador realiza a operação de soma em sequência nos números fornecidos
+   * pelo método {@code apply}.
    * A operação é realizada da seguinte maneira:
-   * <pre>
-   * number1 + number2 + number3 + ... + numberN
-   * </pre>
+   * <p>
+   * <img src=
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Sum.png">
+   * <p>
    * Onde:
-   * - number1, number2, ..., numberN são os números fornecidos.
-   * - A operação de soma é realizada entre todos os números fornecidos em sequência.
+   * <ul>
+   * <li>N&#8321, N&#8322, ..., Nn são os números fornecidos.</li>
+   * <li>A operação de soma é realizada entre todos os números fornecidos em
+   * sequência.</li>
+   * </ul>
    */
   SUM(new Sum()),
+
   /**
    * Operador de subtração.
    * Este operador realiza a operação de subtração em sequência nos números
    * fornecidos pelo método {@code apply}.
    * A operação é realizada da seguinte maneira:
-   * 
-   * <pre>
-   * number1 - number2 - number3 - ... - numberN
-   * </pre>
-   * 
+   * <p>
+   * <img src=
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Subtract.png">
+   * <p>
    * Onde:
-   * - number1, number2, ..., numberN são os números fornecidos.
-   * - A operação de subtração é realizada entre todos os números fornecidos em
-   * sequência.
+   * <ul>
+   * <li>N&#8321, N&#8322, ..., Nn são os números fornecidos.</li>
+   * <li>A operação de subtração é realizada entre todos os números fornecidos em
+   * sequência.</li>
+   * </ul>
    */
   SUBTRACT(new Subtract()),
 
@@ -46,37 +53,36 @@ public enum Operators {
    * Este operador realiza a operação de multiplicação em sequência nos números
    * fornecidos pelo método {@code apply}.
    * A operação é realizada da seguinte maneira:
-   * 
-   * <pre>
-   * number1 * number2 * number3 * ... * numberN
-   * </pre>
-   * 
+   * <p>
+   * <img src=
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Multiply.png">
+   * <p>
    * Onde:
-   * 
-   * <pre>
-   * - number1, number2, ..., numberN são os números fornecidos.
-   * - A operação de multiplicação é realizada entre todos os números fornecidos.
-   * </pre>
+   * <ul>
+   * <li>N&#8321, N&#8322, ..., Nn são os números fornecidos.</li>
+   * <li>A operação de multiplicação é realizada entre todos os números
+   * fornecidos.</li>
+   * </ul>
    */
   MULTIPLY(new Multiply()),
-
+  
   /**
    * Operador de divisão.
    * Este operador realiza a operação de divisão em sequência nos números
    * fornecidos pelo método {@code apply}.
    * A operação é realizada da seguinte maneira:
-   * 
-   * <pre>
-   * (number1 / number2) * (number3 / number4) * ... * (numberN-1 / numberN)
-   * </pre>
-   * 
+   * <p>
+   * <img src=
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Division.png">
+   * <p>
    * Onde:
-   * - number1, number2, ..., numberN são os números fornecidos.
-   * - A operação de divisão é realizada entre cada par de números (por exemplo,
-   * Number1 e Number2, Number3 e Number4, etc.).
-   * - O resultado de cada operação de divisão é então multiplicado pelo próximo
-   * resultado de divisão na sequência.
-   * 
+   * <ul>
+   * <li>N&#8321, N&#8322, ..., Nn são os números fornecidos.</li>
+   * <li>A operação de divisão é realizada entre cada par de números (por exemplo,
+   * N&#8321 e N&#8322, N&#8323 e N&#8324, etc.).</li>
+   * <li>O resultado de cada operação de divisão é então multiplicado pelo próximo
+   * resultado de divisão na sequência.</li>
+   * </ul>
    * @throws ArithmeticException Se tentar uma divisão por zero.
    */
   DIVISION(new Division());
