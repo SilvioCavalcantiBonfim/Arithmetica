@@ -19,7 +19,7 @@ public enum Operators {
    * A operação é realizada da seguinte maneira:
    * <p>
    * <img src=
-   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Sum.png">
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/docs/Sum.png">
    * <p>
    * Onde:
    * <ul>
@@ -37,7 +37,7 @@ public enum Operators {
    * A operação é realizada da seguinte maneira:
    * <p>
    * <img src=
-   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Subtract.png">
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/docs/Subtract.png">
    * <p>
    * Onde:
    * <ul>
@@ -55,7 +55,7 @@ public enum Operators {
    * A operação é realizada da seguinte maneira:
    * <p>
    * <img src=
-   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Multiply.png">
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/docs/Multiply.png">
    * <p>
    * Onde:
    * <ul>
@@ -73,7 +73,7 @@ public enum Operators {
    * A operação é realizada da seguinte maneira:
    * <p>
    * <img src=
-   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/doc/Division.png">
+   * "https://raw.githubusercontent.com/SilvioCavalcantiBonfim/Arithmetica/0.1.0/docs/Division.png">
    * <p>
    * Onde:
    * <ul>
