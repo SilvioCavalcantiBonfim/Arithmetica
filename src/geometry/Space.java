@@ -1,7 +1,7 @@
 package geometry;
 /**
- * Esta é uma enumeração pública que implementa a interface PolyhedronInterface e representa um espaço.
- * Ela fornece métodos para calcular a área da superfície e o volume de um poliedro.
+ * Enumeração Space representa diferentes tipos de políedros em um espaço.
+ * Atualmente, suporta CUBE (cubo), SPHERE (esfera) e CYLINDER (cilindro).
  * 
  * @author Silvio Cavalcanti Bonfim
  * @version 1.0

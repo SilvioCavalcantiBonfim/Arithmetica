@@ -12,7 +12,7 @@ package operators;
  * @since 08/12/2023
  */
 
-public sealed interface Operator permits Sum, Subtract, Multiply, Division {
+sealed interface Operator permits Sum, Subtract, Multiply, Division {
   /**
    * Aplica a operação matemática definida na implementação da interface a um
    * conjunto de números.

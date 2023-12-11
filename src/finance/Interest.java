@@ -1,8 +1,7 @@
 package finance;
 
 /**
- * Esta é uma enumeração pública que implementa a interface InterestInterface e
- * representa um tipo de juros.
+ * Esta é uma enumeração que implementa a os tipo de juros.
  * Ela fornece um método para calcular o montante de um investimento com base no
  * tipo de juros.
  * 

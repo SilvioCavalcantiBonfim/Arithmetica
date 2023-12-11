@@ -8,7 +8,7 @@ package geometry;
  * @version 1.0
  * @since 10/12/2023
  */
-public interface PolyhedronInterface {
+interface PolyhedronInterface {
 
   /**
    * Calcula a área da superfície do poliedro.

@@ -1,8 +1,7 @@
 package geometry;
 
 /**
- * Enumeração Plane que implementa a interface PolygonInterface.
- * Ela representa diferentes tipos de polígonos em um plano.
+ * Enumeração Plane representa diferentes tipos de polígonos em um plano.
  * Atualmente, suporta TRIANGLE (triângulo) e RECTANGLE (retângulo).
  * 
  * @author Silvio Cavalcanti Bonfim
